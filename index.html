@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password</title>
+  </head>
+  <body>
+    <form>
+      <label for="length">How long should you password be?</label><br />
+      <input type="number" id="length" name="length" /><br />
+      <input type="checkbox" id="upper" name="upper" value="Upper" />
+      <label for="upper"> Upper case letters </label><br />
+      <input type="checkbox" id="lower" name="lower" value="LowerCase" />
+      <label for="lower"> Lower case letters</label><br />
+      <input type="checkbox" id="number" name="number" value="num" />
+      <label for="number"> Has numbers?</label><br />
+      <input type="checkbox" id="special" name="special" value="Spec" />
+      <label for="special"> Has special characters?</label><br />
+      <button id="button" type="button" value="Submit">Submit</button>
+    </form>
+    <br />
+    <h1 id="password"></h1>
+    <script src="index.js"></script>
+  </body>
+</html>

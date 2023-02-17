@@ -1,0 +1,19 @@
+.big-box {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#button {
+    margin-left: 30%;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: solid;
+    border-color: black;
+}
+
+label {
+    font-size: 24px;
+}

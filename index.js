@@ -56,6 +56,18 @@ function generatePass() {
     return null;
   }
 
+  if (lengthNum > 1000000) {
+    alert("one million is more than enough pal.");
+    return null;
+  }
+
+  if (
+    getUpper() === !true &&
+    (getLower() === !true) & (getNum() === !true) & (getSpec() === !true)
+  ) {
+    alert("We can't do something with nothing! Please check at least one box.");
+    return null;
+  }
   if (getUpper() === true) {
     possiblePass = possiblePass.concat(upperCase);
   }

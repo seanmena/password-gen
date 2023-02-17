@@ -53,6 +53,7 @@ function generatePass() {
 
   if (lengthNum < 8) {
     alert("Must be at least 8 characters");
+    return null;
   }
 
   if (getUpper() === true) {

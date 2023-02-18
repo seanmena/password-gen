@@ -65,7 +65,7 @@ function generatePass() {
     getUpper() === !true &&
     (getLower() === !true) & (getNum() === !true) & (getSpec() === !true)
   ) {
-    alert("We can't do something with nothing! Please check at least one box.");
+    alert("Slow down and click some boxes cool guy!");
     return null;
   }
   if (getUpper() === true) {

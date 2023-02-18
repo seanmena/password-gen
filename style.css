@@ -5,16 +5,21 @@ html {
 .big-box {
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 #button {
-    margin-left: 30%;
-    padding: 10px;
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 1%;
     background-color: whitesmoke;
     color: black;
     border: solid;
     border-color: black;
+}
+
+h3{
+    padding-bottom: 5%;
 }
 
 label {
